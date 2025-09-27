@@ -1,26 +1,40 @@
-# Detecção de Rótulos Nutricionais Frontais com YOLOv8
+# 🥫 Detecção de Rótulos Nutricionais Frontais com YOLOv8
 
-Este projeto tem como objetivo desenvolver um sistema de **Visão Computacional** para detectar e classificar rótulos nutricionais frontais obrigatórios em embalagens de alimentos no Brasil, de acordo com a **Resolução RDC nº 429/2020** e a **Instrução Normativa nº 75/2020** da ANVISA.  
+Este projeto tem como objetivo desenvolver um sistema de **Visão Computacional** para detectar e classificar rótulos nutricionais frontais obrigatórios em embalagens de alimentos no Brasil, conforme a **Resolução RDC nº 429/2020** e a **Instrução Normativa nº 75/2020** da ANVISA.  
 
-O foco está na identificação dos selos que indicam “Alto em” **açúcar adicionado**, **gordura saturada** e **sódio**, utilizando técnicas de **Machine Learning** e **YOLOv8**, implementadas em **Python**.  
+O foco está na identificação automática dos selos de advertência que indicam “Alto em” **açúcar adicionado**, **gordura saturada** e **sódio**, utilizando técnicas de **Machine Learning** e o modelo **YOLOv8** implementado em **Python**.  
 
 ---
 
 ## 🚀 Tecnologias Utilizadas
-- Python 3 ([Documentação Oficial](https://docs.python.org/3/))  
-- YOLOv8 ([Ultralytics Documentation](https://docs.ultralytics.com/pt/models/yolov8/))  
-- Bibliotecas: `torch`, `ultralytics`, `opencv-python`, `pandas`, `matplotlib`  
+- **Python 3** ([Documentação Oficial](https://docs.python.org/3/))  
+- **YOLOv8** ([Ultralytics Docs](https://docs.ultralytics.com/pt/models/yolov8/))  
+- Principais bibliotecas:  
+  - `torch`  
+  - `ultralytics`  
+  - `opencv-python`  
+  - `pandas`  
+  - `matplotlib`  
 
 ---
 
 ## 📊 Dataset
-- Imagens reais e autorais, coletadas de prateleiras e closes de rótulos em diferentes condições de iluminação e ângulos.  
+- Imagens **autorais**, capturadas em prateleiras de supermercados e closes de rótulos em diferentes condições de iluminação e ângulos.  
+- Classes alvo: `alto-acucar`, `alto-gordurasaturada`, `alto-sodio`.  
+
 ---
 
 ## 🎯 Objetivos
-- Realizar análise exploratória do dataset.  
-- Treinar modelo YOLOv8 para detecção dos selos da ANVISA.   
-- Disponibilizar resultados e relatórios para consulta.  
+- [x] Realizar análise exploratória do dataset.  
+- [x] Padronizar anotações para classes individuais.  
+- [ ] Treinar modelo YOLOv8 para detecção dos selos da ANVISA.  
+- [ ] Avaliar métricas de desempenho (mAP, precisão, recall).  
+- [ ] Disponibilizar resultados e relatórios em notebook e PDF.  
+
+---
+
+## 📓 Notebook
+👉 [Acesse o notebook aqui](https://colab.research.google.com/drive/1bEsZttDg9Hl4F9eSYQkN4p3pVbqOcsT-#scrollTo=WCGLCXMtXvJ1)  
 
 ---
 
