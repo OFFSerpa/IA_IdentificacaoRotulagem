@@ -27,9 +27,9 @@ O foco está na identificação automática dos selos de advertência que indica
 ## 🎯 Objetivos
 - [x] Realizar análise exploratória do dataset.  
 - [x] Padronizar anotações para classes individuais.  
-- [ ] Treinar modelo YOLOv8 para detecção dos selos da ANVISA.  
-- [ ] Avaliar métricas de desempenho (mAP, precisão, recall).  
-- [ ] Disponibilizar resultados e relatórios em notebook e PDF.  
+- [x] Treinar modelo YOLOv8 para detecção dos selos da ANVISA.  
+- [x] Avaliar métricas de desempenho (mAP, precisão, recall).  
+- [x] Disponibilizar resultados e relatórios em notebook e PDF.  
 
 ---
 
