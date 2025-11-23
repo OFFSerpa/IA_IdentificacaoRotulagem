@@ -36,6 +36,10 @@ O foco está na identificação automática dos selos de advertência que indica
 ## 📓 Notebook
 👉 [Acesse o notebook aqui](https://colab.research.google.com/drive/1bEsZttDg9Hl4F9eSYQkN4p3pVbqOcsT-#scrollTo=WCGLCXMtXvJ1)  
 
+## 🎥 Video no YouTube
+
+👉 [Acesse o video aqui](https://youtu.be/0KCtgMKIqfU)
+
 ---
 
 ## 📖 Referências
